@@ -27,7 +27,7 @@ export default function ImageModal({ item, onClose }) {
               whileHover={{ scale: 1.05 }}
             >
               <img
-                src={`${process.env.PUBLIC_URL}${item.src}`} // Ajuste de ruta
+                src={item.src} // Ajuste de ruta
                 alt="Profile"
                 className="w-12 h-12 rounded-full object-cover border-2 border-white dark:border-gray-900 shadow-sm"
               />
@@ -63,7 +63,7 @@ export default function ImageModal({ item, onClose }) {
             transition={{ type: 'spring', stiffness: 300 }}
           >
             <img
-              src={`${process.env.PUBLIC_URL}${item.src}`} // Ajuste de ruta
+              src={item.src} // Ajuste de ruta
               alt={item.alt}
               className="w-full h-full object-contain rounded-xl shadow-lg cursor-default"
               style={{ transform: 'translateZ(0)' }}

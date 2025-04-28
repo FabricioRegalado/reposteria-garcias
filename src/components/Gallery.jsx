@@ -33,7 +33,7 @@ export default function Gallery({ items }) {
                   transition={{ type: 'spring', stiffness: 300 }}
                 >
                   <motion.img
-                    src={`${process.env.PUBLIC_URL}${item.src}`} // Ajuste de ruta
+                    src={item.src} // Ajuste de ruta
                     alt={item.alt}
                     className="w-full h-full object-cover cursor-pointer"
                     loading="lazy"
