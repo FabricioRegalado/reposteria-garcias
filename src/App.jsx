@@ -5,7 +5,7 @@ import Gallery from './components/Gallery';
 import logo from './assets/logo.png';
 
 const items = [
-  { src: `${process.env.PUBLIC_URL}/images/1.jpeg`, alt: '' },
+  { src: `${process.env.PUBLIC_URL}./images/1.jpeg`, alt: '' },
   { src: `${process.env.PUBLIC_URL}/images/2.jpeg`, alt: '' },
   { src: `${process.env.PUBLIC_URL}/images/3.jpeg`, alt: '' },
   { src: `${process.env.PUBLIC_URL}/images/4.jpeg`, alt: '' },
